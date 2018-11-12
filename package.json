@@ -1,0 +1,15 @@
+{
+  "name": "postman_jenkins_workspace",
+  "version": "1.0.0",
+  "description": "project for storing postman tests",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "newman run tests/jenkins.postman_collection.json"
+  },
+  "author": "shashank",
+  "dependencies": {
+    "newman": "^4.2.2"
+  }
+}
